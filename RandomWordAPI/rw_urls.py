@@ -28,4 +28,4 @@ if __name__ == "__main__":
         if "Error" in data:
             print(f"Error: {data['Error']}")
         else:
-            print(f"\nRandom Word: ( {data['Random word']} )\n")
+            print(f"\n( {data['Random word']} )\n")
