@@ -22,7 +22,7 @@ if __name__ == "__main__":
     randomWord = RW()
 
     while True:
-        input("Press Enter to generate a random word: ")
+        input("Press Enter: ")
         data = randomWord.fetch_data()
 
         if "Error" in data:
