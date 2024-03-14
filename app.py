@@ -17,5 +17,6 @@ def index():
     return render_template("index.html", data=data)
 
 
+# TODO: catch errors when spelled wrong
 if __name__ == "__main__":
     app.run(debug=True)
